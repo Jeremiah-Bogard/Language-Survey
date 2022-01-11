@@ -24,23 +24,23 @@
     <p style="text-align: center; font-size: 20px;">All contributions are welcome!</p>
     
   <!-- Survey -->
-    <h2>Survey</h2>
-    
     <form id="survey-form">
+      <h2>Survey</h2>
     
     <!-- Name -->
       <label id="email-label" for="name">Name</label><br>
       <input id="name" type="name" name="name" placeholder="John Doe" required>
-      <br>
+      <br><br>
       
     <!-- Email -->
       <label id="email-label" for="email">Email</label><br>
       <input id="email" type="email" name="email" placeholder="john.doe@gmail.com" required>
-      <br>
+      <br><br>
       
     <!-- How many years have you been coding? -->
       <label id="number-label" for="number">How many years have you been coding?</label><br>
       <input id="number" type="number" name="number" min="3" max="99" placeholder="5">
+      <br>
       
     <!-- Gender -->
       <p>Gender: </p>
@@ -50,13 +50,14 @@
         <option>Female</option>
         <option>Prefer not to anwser</option>
       </select>
+      <br><br>
       
     <!-- Do you currently have a coding job? -->
       <p>Do you currently have a coding job?</p>
       
       <label><input type="radio" name="yes">Yes</label>
-      
       <label><input type="radio" name="no">No</label>
+      <br><br>
       
     <!-- What kind of programmer are you? -->
       <p>What kind of programmer are you?</p>
@@ -65,9 +66,11 @@
       <label><input type="checkbox" value="backEndWeb">Back End Web Developer</label><br>
       <label><input type="checkbox" value="dataspecialist">Data Specialist</label><br>
       <label><input type="checkbox" value="other">Other</label>
+      <br><br>
       
       <p>Please list the languages you code in seperated by a comma</p>
-      <textArea rows="7" cols="30" placeholder="HTML, CSS, etc"></textArea><br>
+      <textArea rows="7" cols="50" placeholder="HTML, CSS, etc"></textArea>
+      <br><br>
       
       <button id="submit" type="submit">Submit</button>
       
