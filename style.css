@@ -29,3 +29,16 @@ body {
 #survey-form input:focus, #survey-form select:focus, #survey-form textArea:focus {
   border: solid 3px #0d0;
 }
+#survey-form #submit {
+  background-color: #00a;
+  border: solid 3px #0a0;
+  color: #fff;
+  outline: none;
+  padding: 10px 100px;
+  transition: all 0.5s ease-in-out;
+}
+#survey-form #submit:hover {
+  cursor: pointer;
+  border: solid 3px #0af;
+  border-radius: 10px;
+}
