@@ -24,18 +24,22 @@
     <p style="text-align: center; font-size: 20px;">All contributions are welcome!</p>
     
   <!-- Survey -->
+    <h2>Survey</h2>
+    
     <form id="survey-form">
     
     <!-- Name -->
-      <label id="email-label" for="name">Name: </label>
+      <label id="email-label" for="name">Name</label><br>
       <input id="name" type="name" name="name" placeholder="John Doe" required>
+      <br>
       
     <!-- Email -->
-      <label id="email-label" for="email">Email: </label>
+      <label id="email-label" for="email">Email</label><br>
       <input id="email" type="email" name="email" placeholder="john.doe@gmail.com" required>
+      <br>
       
     <!-- How many years have you been coding? -->
-      <label id="number-label" for="number">How many years have you been coding? </label>
+      <label id="number-label" for="number">How many years have you been coding?</label><br>
       <input id="number" type="number" name="number" min="3" max="99" placeholder="5">
       
     <!-- Gender -->
@@ -50,20 +54,20 @@
     <!-- Do you currently have a coding job? -->
       <p>Do you currently have a coding job?</p>
       
-      <label><input type="radio" name="yes" checked>Yes</label>
+      <label><input type="radio" name="yes">Yes</label>
       
       <label><input type="radio" name="no">No</label>
       
     <!-- What kind of programmer are you? -->
       <p>What kind of programmer are you?</p>
       
-      <label><input type="checkbox" value="frontEndWeb" checked>Front End Web Developer</label>
-      <label><input type="checkbox" value="backEndWeb">Back End Web Developer</label>
-      <label><input type="checkbox" value="dataspecialist">Data Specialist</label>
+      <label><input type="checkbox" value="frontEndWeb" checked>Front End Web Developer</label><br>
+      <label><input type="checkbox" value="backEndWeb">Back End Web Developer</label><br>
+      <label><input type="checkbox" value="dataspecialist">Data Specialist</label><br>
       <label><input type="checkbox" value="other">Other</label>
       
       <p>Please list the languages you code in seperated by a comma</p>
-      <textArea rows="10" cols="10" placeholder="HTML, CSS, etc"></textArea>
+      <textArea rows="7" cols="30" placeholder="HTML, CSS, etc"></textArea><br>
       
       <button id="submit" type="submit">Submit</button>
       
